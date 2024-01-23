@@ -27,6 +27,7 @@ header {
 header img {
     width: 10%;
     height: 100%;
+    transition: .2s;
 }
 header img:hover {
     width: 15%;
