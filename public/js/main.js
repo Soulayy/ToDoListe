@@ -63,8 +63,10 @@ let btn4 = document.createElement("button")
 
     
 
-    add.addEventListener("click", () => {
-
+    creat.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") {
+            
+        
         if (creat.value) {
         
     let list = document.createElement("div")
@@ -185,7 +187,7 @@ let btn4 = document.createElement("button")
     })
     
     creat.value = ""
-
+}
 }
 })
 
