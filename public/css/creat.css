@@ -1,0 +1,124 @@
+.section2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list{
+    height: 150px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13%;
+    border: 2px solid rgba(152, 152, 152, 0.477);
+  padding: 10px;
+  border-radius: 50px 20px;
+  background: rgb(125,231,242);
+background: linear-gradient(54deg, rgba(125,231,242,0.7793242296918768) 21%, rgba(243,138,148,1) 100%);
+}
+
+.inputDiv {
+    width: 80%;
+    height: 40px;
+    border: 2px solid rgba(152, 152, 152, 0.477);
+    padding: 10px;
+    border-radius: 25px;
+    color: #ACD6D9;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.divBtn {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valid:hover{
+    color: white;
+
+    box-shadow: rgba(100, 228, 111, 0.35) 0px -50px 36px -28px inset;
+}
+.modify:hover{
+    color: white;
+
+    box-shadow: rgba(205, 136, 209, 0.35) 0px -50px 36px -28px inset;
+}
+.delete:hover{
+    color: white;
+    box-shadow: rgba(229, 60, 60, 0.35) 0px -50px 36px -28px inset;
+}
+.retour:hover{
+    color: white;
+
+    box-shadow: rgba(45, 98, 212, 0.35) 0px -50px 36px -28px inset;
+}
+
+
+.valid {
+    height: 90%;
+    width: 30%;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 0px #a4a4a4,
+    inset -5px -5px 0px #ffffff;
+    font-weight: bold;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#008000;
+    border: 2px solid rgba(152, 152, 152, 0.477);
+  padding: 10px;
+  border-radius: 50px 20px;
+}
+.modify {
+    height: 90%;
+    width: 30%;
+    inset -5px -5px 0px #ffffff;
+    font-weight: bold;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 2px solid rgba(152, 152, 152, 0.477);
+    border-radius: 38px;
+background: #e0e0e0;
+box-shadow: inset 19px 19px 38px #868686,
+            inset -19px -19px 38px #ffffff;
+
+}
+.delete {
+    height: 90%;
+    width: 30%;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 0px #a4a4a4,
+    inset -5px -5px 0px #ffffff;
+    font-weight: bold;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(210, 84, 84);
+    border: 2px solid rgba(152, 152, 152, 0.477);
+  padding: 10px;
+  border-radius: 20px 50px;
+}
+.retour {
+    height: 90%;
+    width: 30%;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 0px #a4a4a4,
+    inset -5px -5px 0px #ffffff;
+    font-weight: bold;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 123, 209);
+    border: 2px solid rgba(152, 152, 152, 0.477);
+    padding: 10px;
+    border-radius: 50px 20px;
+}

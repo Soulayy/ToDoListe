@@ -1,0 +1,65 @@
+.espace {
+    height: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.section1 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section1 button {
+    color: #ACD6D9;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.text {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text input {
+    height: 60%;
+    width: 70%;
+    border: 5px solid #F38B94;
+    font-size: larger;
+    color: #ACD6D9;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.text button {
+    width: 20%;
+    height: 72%;
+    border: 5px solid #F38B94;
+}
+
+.trie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    color: #ACD6D9;
+
+}
+
+.trie button {
+    width: 15%;
+    height: 50%;
+    color: #ACD6D9;
+    font-weight: bold;
+    font-size: larger;
+    border: 2px solid rgba(152, 152, 152, 0.477);
+
+}
+
