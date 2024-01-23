@@ -32,7 +32,6 @@ background: linear-gradient(54deg, rgba(125,231,242,0.7793242296918768) 21%, rgb
     color: #ACD6D9;
     font-size: larger;
     font-weight: bold;
-    text-align: center;
 
 }
 
@@ -64,7 +63,6 @@ background: linear-gradient(54deg, rgba(125,231,242,0.7793242296918768) 21%, rgb
     box-shadow: rgba(45, 98, 212, 0.35) 0px -50px 36px -28px inset;
 }
 
-
 .valid {
     height: 90%;
     width: 30%;
@@ -82,6 +80,7 @@ background: linear-gradient(54deg, rgba(125,231,242,0.7793242296918768) 21%, rgb
 .modify {
     height: 90%;
     width: 30%;
+    box-shadow: inset 5px 5px 0px #a4a4a4,
     inset -5px -5px 0px #ffffff;
     font-weight: bold;
     font-size: smaller;
