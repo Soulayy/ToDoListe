@@ -34,6 +34,7 @@
     color: #ACD6D9;
     font-weight: bold;
     padding-left: 10px;
+    outline: none;
 
 }
 
@@ -50,7 +51,6 @@
     gap: 10px;
     height: 60px;
     color: #ACD6D9;
-
 }
 
 .trie button {
